@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "roslyn-assemblyunload-lib", "roslyn-assemblyunload-lib\roslyn-assemblyunload-lib.csproj", "{E8783BDB-CF06-404F-807E-7BF673A33E6C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "roslyn-assemblyunload-shared", "roslyn-assemblyunload-shared\roslyn-assemblyunload-shared.shproj", "{41B5D4C8-5E97-437B-93C8-7EC62E095AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roslyn-assemblyunload-standalone", "roslyn-assemblyunload-standalone\roslyn-assemblyunload-standalone.csproj", "{EFF53129-54C3-4F11-AF26-0E27D466DC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roslyn-assemblyunload-refnetstd", "roslyn-assemblyunload-refnetstd\roslyn-assemblyunload-refnetstd.csproj", "{4803FAE8-BCCC-44F8-8114-A724B388BA11}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "roslyn-assemblyunload-platformservices", "roslyn-assemblyunload-platformservices\roslyn-assemblyunload-platformservices.shproj", "{83EEA091-7998-4F7B-BB16-963CDDECCEAF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		roslyn-assemblyunload-shared\roslyn-assemblyunload-shared.projitems*{41b5d4c8-5e97-437b-93c8-7ec62e095ab8}*SharedItemsImports = 13
+		roslyn-assemblyunload-platformservices\roslyn-assemblyunload-platformservices.projitems*{4803fae8-bccc-44f8-8114-a724b388ba11}*SharedItemsImports = 5
+		roslyn-assemblyunload-platformservices\roslyn-assemblyunload-platformservices.projitems*{83eea091-7998-4f7b-bb16-963cddecceaf}*SharedItemsImports = 13
+		roslyn-assemblyunload-shared\roslyn-assemblyunload-shared.projitems*{e8783bdb-cf06-404f-807e-7bf673a33e6c}*SharedItemsImports = 5
+		roslyn-assemblyunload-platformservices\roslyn-assemblyunload-platformservices.projitems*{eff53129-54c3-4f11-af26-0e27d466dc0b}*SharedItemsImports = 5
+		roslyn-assemblyunload-shared\roslyn-assemblyunload-shared.projitems*{eff53129-54c3-4f11-af26-0e27d466dc0b}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8783BDB-CF06-404F-807E-7BF673A33E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8783BDB-CF06-404F-807E-7BF673A33E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8783BDB-CF06-404F-807E-7BF673A33E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8783BDB-CF06-404F-807E-7BF673A33E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF53129-54C3-4F11-AF26-0E27D466DC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF53129-54C3-4F11-AF26-0E27D466DC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF53129-54C3-4F11-AF26-0E27D466DC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF53129-54C3-4F11-AF26-0E27D466DC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4803FAE8-BCCC-44F8-8114-A724B388BA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4803FAE8-BCCC-44F8-8114-A724B388BA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4803FAE8-BCCC-44F8-8114-A724B388BA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4803FAE8-BCCC-44F8-8114-A724B388BA11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C307B4B-581B-48E5-8312-3BA5F744E7DB}
+	EndGlobalSection
+EndGlobal

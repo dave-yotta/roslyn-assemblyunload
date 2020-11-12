@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>41b5d4c8-5e97-437b-93c8-7ec62e095ab8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>roslyn_assemblyunload_shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)HostBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IAssemblyLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IPlatformServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MrTest.cs" />
+  </ItemGroup>
+</Project>

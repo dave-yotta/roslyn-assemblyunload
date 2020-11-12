@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>roslyn_assemblyunload_standalone</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\roslyn-assemblyunload-shared\roslyn-assemblyunload-shared.projitems" Label="Shared" />
+
+  <Import Project="..\roslyn-assemblyunload-platformservices\roslyn-assemblyunload-platformservices.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
